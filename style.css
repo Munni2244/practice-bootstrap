@@ -1,9 +1,9 @@
 .cards-footer{
-    display:none ;
+    opacity: 0;
    
 }
 .cards:hover .cards-footer{
-    display: block;
+    opacity: 1;
     background-color: rgba(247, 239, 239, 0.637);
     color: rgb(36, 253, 7);
     padding: 0;
