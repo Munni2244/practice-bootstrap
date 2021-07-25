@@ -1,0 +1,58 @@
+.cards-footer{
+    display:none ;
+   
+}
+.cards:hover .cards-footer{
+    display: block;
+    background-color: rgba(247, 239, 239, 0.637);
+    color: rgb(36, 253, 7);
+    padding: 0;
+    margin: 0;
+}
+.cards{
+border: 1px solid white;
+border-radius: 10px;
+box-shadow: 0px 0px 5px 5px rgb(231, 224, 224);
+
+}
+.cards:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+    color: rgb(0, 0, 12);
+}
+.cards img{
+    border-radius: 10px;
+}
+.Goals-button{
+    border: none;
+    background-color:rgba(75, 87, 194, 0.863);
+
+} 
+.Goals-button:hover{
+    background-color:blue ;
+    color: white;
+}
+.search-button:hover{
+    border: none;
+    background-color: rgba(172, 169, 166, 0.788);
+   
+}
+.Goals-balance{
+    border: none;
+}
+.Goals-pill:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+.pill-title:hover{
+    color: blue;
+
+}
+.footer-text ul li{
+    color: white;
+   
+}
+.footer-text ul a{
+  text-decoration: none;
+  list-style: none;
+}
